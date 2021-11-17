@@ -36,7 +36,6 @@
 # in a session:
 #     BCT_ENABLE=0
 # To re-enable:
-#     BCT_ENABLE=1
 BCT_ENABLE=1
 
 # The color of the output for successful and failed commands respectively.
@@ -59,7 +58,7 @@ BCT_ERROR_COLOR='91'
 # pattern.
 #
 # If empty, disables printing of current time.
-BCT_TIME_FORMAT='%b %d %I:%M%p'
+BCT_TIME_FORMAT='%Y-%m-%dT%H:%M:%S %Z'
 
 # Whether to print command timings up to millisecond precision.
 #
